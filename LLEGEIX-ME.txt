@@ -1,0 +1,40 @@
+Joel Salvador Marcos
+
+Pràctica 3a) Treballant amb branques del sistema de control de versions Git 
+
+Part 2
+
+1.)
+git branch branca00
+git checkout branca00
+git status
+
+5.)
+git checkout main
+git status
+git log 
+
+La diferencia es que a la branca origin/main hem fet 2 commit, i en la branca00 que hem creat només 1 commit.
+
+6.)
+No, no podem veure la línia afegida en la pregunta 2 de la segona part de la pràctica, perquè es a la branca00 on hem guardat els canvis. 
+
+7.)
+git checkout branca00
+Si, perquè hem accedit a la branca00, que es on vam afegir aquesta línia, i per tant estem veient la versió correcta.
+
+10b.)
+git merge branca00
+
+12.)
+git push –u origin main
+
+12.c)
+Perquè amb el push hem especificat el main que es la branca.
+
+14.a) 
+git push –u origin branca01
+
+14.c)
+La branca està a 1 commit de distancia de la branca main.
+
